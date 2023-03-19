@@ -80,9 +80,9 @@ body{
 }
 .card:hover .product_img{
     transition-delay: 0.75s;
-    top:25%;
+    top:45%;
     left:72%;
-    height: 500px;
+    height: 300px;
     transform: translate(-50%,-50%) scale(1) rotate(15deg);
 
 
