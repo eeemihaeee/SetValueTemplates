@@ -3,3 +3,5 @@
 Проекты:
 	- HTML & CSS & JavaScripts
 	- Mitt App Inventor
+	- PHP
+	- PHPmyAdmin, SQL, MySQL
