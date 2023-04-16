@@ -11,6 +11,9 @@
 	<li role ="registration" class = "active">
 		<a href="index.php?page=4">Registration</a>
 	</li>
+	<li role ="admin" class = "active">
+		<a href="index.php?page=5">Admin</a>
+	</li>
 </ul>
 
 

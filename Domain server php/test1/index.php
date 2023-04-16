@@ -25,10 +25,11 @@
 				<?php if (isset($_GET['page']))
 				{
 					$page = $_GET['page'];
-					if($page==1)include_once('pages/home.php');
+					if($page==1)include_once('index.php');
 					if($page==2)include_once('pages/upload.php');
 					if($page==3)include_once('pages/gallery.php');
 					if($page==4)include_once('pages/registration.php');
+					if($page==5)include_once('pages/admin.php');
 				}
 					
 				?>
@@ -36,48 +37,7 @@
 			</header>
 		</div>
 	
-	<div class ="row">
-		<!-- 25% ширина виджета -->
-		<!--.col-xs- (extra small) для очень маленьких экранов 
-				с шириной меньше 768px;
-		.col-sm- (small) для маленьких экранов с шириной 
-			больше 768px и меньше 992px;
-		.col-md- (medium) для средних экранов с шириной 
-			больше 992px и меньше 1200px;
-		.col-lg- (large) для больших экранов с шириной 
-			больше 1200px. -->
-		<div class="col-sm-3 col-md-3 col-lg-3">
-			<p>1</p>
-			<p>2</p>
-			<p>3</p>
-		</div>
-		<!-- 50% ширина виджета -->
-		<div class="col-sm-6 col-md-6 col-lg-6">
-			<p>1</p>
-			<p>2</p>
-			<p>3</p>
-		</div>
-		<!-- 25% ширина виджета -->
-		<div class="col-sm-3 col-md-3 col-lg-3">
-			<p>1</p>
-			<p>2</p>
-			<p>3</p>
-		</div>
-	</div>
-	<div class ="row">
-		<!-- 50% ширина виджета -->
-		<div class="col-sm-6 col-md-6 col-lg-6">
-			<p>1</p>
-			<p>2</p>
-			<p>3</p>
-		</div>
-		<!-- 50% ширина виджета -->
-		<div class="col-sm-6 col-md-6 col-lg-6">
-			<p>1</p>
-			<p>2</p>
-			<p>3</p>
-		</div>
-		
+	
 
 	</div>
 	</section>
